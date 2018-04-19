@@ -21,11 +21,11 @@ void Hero::update(float dt)
 {
 	if (faceRight)
 	{
-		x += dt*50;
+		x += dt*800;
 	}
 	else
 	{
-		x -= dt*50;
+		x -= dt*800;
 	}
 
 	if (x >= 640)
